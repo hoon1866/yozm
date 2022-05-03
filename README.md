@@ -1,1 +1,1 @@
-# yozm
+# yozm - private projects
