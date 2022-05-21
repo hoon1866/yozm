@@ -1,0 +1,108 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+body {
+    background-color: rgba(253, 253, 253, 0.904);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 140px;
+    height: 120px;
+    opacity: 0.8;
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.2));
+    position: relative;
+    bottom: -50px;
+}
+
+#real_body {
+    background-image: url("https://images.unsplash.com/photo-1566041510632-30055e21a9cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    height: 960px;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 4vh 3vh;
+    width: 700px;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    border-bottom: solid 2px black;
+    font-weight: bold;
+}
+
+header>.H_left {
+    font-size: 100px;
+}
+
+header>.H_right {
+    font-size: 40px;
+}
+
+main {
+    width: 100%;
+    margin-top: 15px;
+}
+
+main>.nav1 {
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: bolder;
+}
+
+main>.nav1>div {
+    display: flex;
+    /* flex-direction: row;  */
+}
+
+main>.nav1>a {
+    text-decoration: none;
+    color: black;
+}
+
+main>.nav1>div>p {
+    margin: 10px;
+    line-height: 23px;
+}
+
+main>.nav2 {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.circle1 {
+    background-color: rgb(55, 87, 210);
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin: 10px;
+}
+
+.circle2 {
+    background-color: rgb(235, 106, 105);
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin: 10px;
+}
+
+.circle3 {
+    background-color: rgb(16, 137, 185);
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin: 10px;
+}
